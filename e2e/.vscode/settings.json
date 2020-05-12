@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontSize": 12,
+    "vsicons.presets.angular": true,
+        "cucumberautocomplete.steps": [
+            "steps/*.ts"
+        ],
+        "cucumberautocomplete.syncfeatures": "features/*feature",
+        "cucumberautocomplete.strictGherkinCompletion": true,
+        "editor.quickSuggestions": {
+            "comments": false,
+            "strings": true,
+            "other": true
+        },
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/*.js" : {
+                "when": "$(basename).ts"
+            },
+            "**/*.js.map": {
+                "when": "$(basename)"
+            }
+    }
+}
+    

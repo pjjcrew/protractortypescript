@@ -1,0 +1,13 @@
+node_modules
+reports
+ reports
+dist
+package-lock.json
+yarn.lock
+yarn.error.log
+.DS_STORE
+.idea/
+.idea/**
+documentation/**
+*.js
+*.js.map
